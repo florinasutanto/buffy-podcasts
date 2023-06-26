@@ -52,7 +52,7 @@
 			<div class="opener">
 				<div class="prose-container">
 					<p>Stakes, crosses, holy water, boyfriends, lip gloss. Buffy the Vampire Slayer first aired on March 10, 1997 (4 years before I was born, and 15 before I first made contact with the show via a Tumblr gifset) as a low-budget teen soap featuring titular Buffy Summers: a tiny, fashion-conscious high schooler who reluctantly patrols Sunnydale for vampires, monsters, evil robots, and other things that go bump in the night. Over the course of its explosive seven-season run, the show <a href="https://www.vox.com/culture/2017/3/10/14857542/buffy-the-vampire-slayer-explained-tv-influence">cemented TV tropes and formats</a> that have endured in the shows we watch today and has since lived on in collective pop culture memory for over two decades. Buffy and her friends (+ lovers, enemies, and toxic situationships) have been memorialized in probably every single internet platform you can think of, and if you’re like me, you’ve probably spent many, many hours absorbing everyone and their mother’s thoughts on who Buffy should’ve ended up with. Which leads me to the podcasts. </p>
-					<p>I used the <a href="https://developer.spotify.com/documentation/web-api/reference/search">Spotify for Developers API</a> to request information about shows (podcasts) and episodes tagged as "Buffy the Vampire Slayer". In Jupyter Notebook, I then cleaned the data by eliminating unrelated results that managed to slip through and used pandas to perform some analysis, before creating the following visualizations on DataWrapper and Tableau. 
+					<p>I used the <a href="https://developer.spotify.com/documentation/web-api/reference/search">Spotify for Developers API</a> to request information about shows and episodes tagged as "Buffy the Vampire Slayer". I then cleaned the data by eliminating unrelated results that managed to slip through and used pandas to perform some analysis, before creating the following visualizations on DataWrapper and Tableau. 
 					</p>
 				</div>
 			</div>
@@ -63,8 +63,8 @@
 			<p class="chart-title">How long have people been talking about Buffy?</p>
 			<br>
 			<br>
-			<div class="full-size-image" style="max-width: 700px; margin: 0 auto;">
-				<div style="min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/T3k9m/embed.js?v=2" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/T3k9m/full.png" alt="This is a rising line chart of Buffy the Vampire Slayer-related podcast episodes on Spotify. " /></noscript></div>
+			<div class="full-size-image" style="max-width: 800px; margin: 0 auto;">
+				<div style="min-height:600px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/T3k9m/embed.js?v=4" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/T3k9m/full.png" alt="This is a rising line chart of Buffy the Vampire Slayer-related podcast episodes on Spotify. " /></noscript></div>
 			</div>
 
 			<div class="section">
@@ -98,11 +98,11 @@
 		</div>
 
 		<div class="section">
-			<p>It’s worth noting that the data I managed to pull from the Spotify API is dreadfully incomplete. For example, my favorite Buffy podcast – Buffering: A Rewatch Adventure – does not exist under <b>shows</b>, for some reason, even though it started in 2016 (so the first chart was lying, sorry). The first season of Buffering exists under <b>episodes</b>, though, but the following six seasons do not. I plan to revisit this project and dig through the API again to troubleshoot these issues, but until then, please take some time to listen to these wonderful podcasts!</p>
+			<p>It’s worth noting that the data I managed to pull from the Spotify API is dreadfully incomplete. For example, my favorite Buffy podcast – Buffering: A Rewatch Adventure – does not exist under <b>shows</b> for some reason, even though it started in 2016 (so the first chart was lying, sorry). The first season of Buffering exists under <b>episodes</b>, though, but the following six seasons do not. I plan to revisit this project and dig through the API again to troubleshoot these issues, but until then, please take some time to listen to these wonderful podcasts!</p>
 		</div>
 
 		<div class="section">
-			<p>Here is a link to the GitHub repo: </p>
+			<p><a href="https://github.com/florinasutanto/buffy-podcasts">Here is the GitHub repo.</a></p>
 		</div>
 
 	</body>
